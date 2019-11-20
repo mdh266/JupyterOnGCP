@@ -8,6 +8,6 @@ source ~/.bashrc && \
 
 # create conda environment as cant install packages into base
 conda env create -f environment.yml && \
-conda activate nla4ml
+conda activate nla4ml && \
 python -m ipykernel install --user --name nla4ml --display-name "Python (nla4ml)" && \
 echo "conda activate nla4ml" > .bashrc
