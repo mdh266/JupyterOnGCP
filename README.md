@@ -8,7 +8,7 @@
     sudo apt update
     sudo apt install git vim -y
     git clone https://github.com/mdh266/JupyterOnGCP.git
-    cd jupyterongcp
+    cd JupyterOnGCP
     bash install.sh
 
 
