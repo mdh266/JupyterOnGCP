@@ -9,7 +9,7 @@
     sudo apt install git vim -y
     git clone https://github.com/mdh266/JupyterOnGCP.git
     cd JupyterOnGCP
-    bash install.sh
+    source install.sh
 
 
 ## Running Jupyter notebook
